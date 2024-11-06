@@ -22,10 +22,20 @@ service GreetService {
 // when you are not passing any params still you will need to add a type
 // NoParam acts as a type for no parameters given.
 
+message NoParam {};
+
 message HelloRequest {
   string name = 1;
 }
 
 message HelloResponse {
   string message = 1;
+}
+
+message NamesList {
+  repeated string names = 1;
+}
+
+message MessagesList {
+  repeated string messages = 1;
 }
