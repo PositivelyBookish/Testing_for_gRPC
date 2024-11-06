@@ -3,7 +3,7 @@ syntax="proto3";
 
 // path to our current folder, where the generated files will be placed
 option go_package = "./proto";
-
+//
 // package name for our proto file
 package greet_service;
 
